@@ -1,0 +1,1926 @@
+<!doctype html>
+<html lang="tr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>R-IoT</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="bulltheme">
+
+    <link rel="shortcut icon" href="images/favicon.png"><!-- Favicon Icon -->
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="css/plugins.css"><!-- plugins Css -->
+    <link rel="stylesheet" href="css/fonts-icons.css"><!-- Font Icons Css -->
+    <link rel="stylesheet" href="css/style.css"><!-- Custom Css -->
+    <link rel="stylesheet" href="css/helper.css"><!-- Helper Css -->
+    <link rel="stylesheet" href="css/skins/skin-purple.css"><!-- Skins color Css -->
+</head>
+
+<body>
+
+    <!-- Start PreLoader
+    ================================================== -->
+    <div id="pre-loader" class="pre-loader bg-custom">
+        <div class="cube-wrapper">
+            <div class="cube-folding">
+                <span class="leaf1"></span>
+                <span class="leaf2"></span>
+                <span class="leaf3"></span>
+                <span class="leaf4"></span>
+            </div>
+            <span class="loading" data-name="Loading">Yükleniyor</span>
+        </div>
+        <div class="pre-loader-logo"><span class="fw-9 text-black">R-IoT</span></div>
+    </div>
+    <!-- End PreLoader
+    ================================================== -->
+
+    <!-- Start Header
+    ================================================== -->
+    <header class="header fixed-top">
+        <nav class="navbar navbar-expand-lg p-0 navbar-custom">
+            <div class="header-logo">
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img class="img-fluid d-block mx-auto mr-10" src="./images/favicon.png"
+                        alt="Here is the best way to present your apps">
+                    <!-- <span class="text-uppercase fw-3">Head-->
+                    <span class="fw-9 text-custom">R-IoT</span>
+                    <!-- </span>-->
+                </a>
+            </div>
+            <div class="header-nav ml-auto">
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active"><a class="nav-link page-scroll" href="#home">Ana Sayfa <span
+                                    class="sr-only">(current)</span></a></li>
+                        <li class="nav-item"><a class="nav-link page-scroll" href="#about">Hakkımızda</a></li>
+                        <li class="nav-item"><a class="nav-link page-scroll" href="#services">Hizmetlerimiz</a></li>
+                        <!--<li class="nav-item"><a class="nav-link page-scroll" href="#testimonial">Testimonial</a></li>-->
+                        <!--<li class="nav-item"><a class="nav-link page-scroll" href="#portfolio">Portfolyo</a></li>-->
+                        <!-- <li class="nav-item"><a class="nav-link page-scroll" href="#pricing">Pricing</a></li>-->
+                        <!--  <li class="nav-item"><a class="nav-link page-scroll" href="#faq">FAQ</a></li>-->
+                        <li class="nav-item"><a class="nav-link page-scroll" href="#contact">Bize Ulaşın</a></li>
+                        <div class="dropdown">
+                            <button class="dropbtn"><img src="./images/flag-tr.png" />
+                                <span>TR</span></a></button>
+                            <div class="dropdown-content">
+                                <a href="./en/"> <img src="./images/flag-uk.png" />
+                                    <span>EN</span></a>
+                            </div>
+                        </div>
+                        <!-- <li class="nav-item"><a
+                                class="nav-link page-scroll btn btn-custom text-center text-white ml-lg-10 mr-lg-10"
+                                href="#career">Career</a></li>-->
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link header-follow"
+                                href="#SocialIcon"><span class="ti-sharethis"></span></a></li>
+                        <li class="nav-item d-none d-lg-block"><a class="nav-link js-fr-offcanvas-open"
+                                aria-controls="offcanvas-2" href="#OffCanvas"><span class="ti-more-alt"></span></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="header-social d-flex align-items-center">
+                <ul class="list-unstyled mb-0 list-inline header-social-inner">
+                    <li class="list-inline-item d-none d-sm-inline-block">Bizi Takip Edin:</li>
+                    <!--
+                    <li class="list-inline-item"><a href="#"><span class="d-none d-md-inline-block">Facebook</span><i
+                                class="fab fa-facebook-f ml-2"></i></a></li>-->
+                    <li class="list-inline-item"><a href="https://twitter.com/r_iottech" target="_blank"><span
+                                class="d-none d-md-inline-block">Twitter</span><i class="fab fa-twitter ml-2"></i></a>
+                    </li>
+                    <li class="list-inline-item"><a href="https://www.instagram.com/r_iottechnologies/ "
+                            target="_blank"><span class="d-none d-md-inline-block">Instagram</span><i
+                                class="fab fa-instagram ml-2"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.linkedin.com/company/riot-tech/"
+                            target="_blank"><span class="d-none d-md-inline-block">Linkedin</span><i
+                                class="fab fa-linkedin-in ml-2"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC0cF0U5K8N_WSxKscBBNSiw"
+                            target="_blank"><span class="d-none d-md-inline-block">Youtube</span><i
+                                class="fab fa-youtube ml-2"></i></a></li>
+                </ul>
+                <a class="header-follow-close d-flex justify-content-center align-items-center" href="#"><span
+                        class="ti-close"></span></a>
+            </div>
+            <div class="mobile-menu d-md-block d-lg-none">
+                <a class="header-follow d-flex justify-content-center align-items-center" href="#"><span
+                        class="ti-sharethis"></span></a>
+                <a class="d-flex justify-content-center align-items-center js-fr-offcanvas-open"
+                    aria-controls="offcanvas-2" href="#"><span class="ti-more-alt"></span></a>
+                <a class="navbar-toggler d-flex justify-content-center align-items-center" data-toggle="collapse"
+                    href="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <i class="ti-menu"></i>
+                </a>
+            </div>
+        </nav>
+
+        <!-- Start offcanvas -->
+        <div class="fr-offcanvas js-fr-offcanvas bg-white" id="offcanvas-2">
+            <button type="button"
+                class="btn btn-black btn-block rounded-0 w-100 fr-offcanvas-close js-fr-offcanvas-close fr-offcanvas-close-btn"><span
+                    class="ti-close mr-2"></span>Kapat</button>
+            <div class="row justify-content-center align-items-center text-center mb-30">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Hemen iletişime geçin</h2>
+                </div>
+            </div>
+            <form class="form needs-validation mb-5" method="post" action="php/contact.php">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="messages"></div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="text" name="name" placeholder="İsim*"
+                                    required="required" data-error="İsim alanını doldurmalısınız..">
+                                <label><i class="icon-profile-male"></i></label>
+                            </div>
+                            <div class="help-block with-errors text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="email" name="email" placeholder="E-Mail*"
+                                    required="required" data-error="Email adresiniz gerekli.">
+                                <label><i class="icon-envelope"></i></label>
+                            </div>
+                            <div class="help-block with-errors text-danger"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="text" name="phone" placeholder="Telefon Numarası">
+                                <label><i class="icon-phone"></i></label>
+                            </div>
+                            <div class="help-block with-errors text-danger"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="form-group">
+                            <div class="position-relative">
+                                <input class="form-control" type="text" name="subject" placeholder="Konu*"
+                                    required="required" data-error="Lütfen bir konu giriniz.">
+                                <label><i class="icon-pencil"></i></label>
+                            </div>
+                            <div class="help-block with-errors text-danger"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="form-group">
+                            <div class="position-relative">
+                                <textarea class="form-control" name="message" placeholder="Mesajınız*" rows="3"
+                                    required="required" data-error="Lütfen bize bir mesaj bırakın."></textarea>
+                                <label><i class="icon-clipboard"></i></label>
+                            </div>
+                            <div class="help-block with-errors text-danger"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12">
+                        <button class="btn btn-custom" type="submit">Gönder<i
+                                class="far fa-paper-plane pl-3"></i></button>
+                    </div>
+                </div>
+            </form>
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="media mt-3 mb-30">
+                        <span class="icon-map-pin h2 align-self-center mr-15"></span>
+                        <div class="media-body pl-3">
+                            <h6 class="mb-1 text-black fw-6">LOKASYONUMUZ:</h6>
+                            <p>Trakya Teknopark - Trakya Üniversitesi Ayşekadın Yerleşkesi, 22100 Edirne</p>
+                        </div>
+                    </div>
+                    <div class="media mt-3 mb-30">
+                        <span class="icon-envelope h2 align-self-center "></span>
+                        <div class="media-body pl-3">
+                            <h6 class="mb-1 text-black fw-6">MAIL:</h6>
+                            <p>info@riot.com.tr</p>
+                        </div>
+                    </div>
+                    <!--<div class="media mt-3 mb-30">
+                        <span class="icon-phone h2 align-self-center mr-20"></span>
+                        <div class="media-body pl-3">
+                            <h6 class="mb-1 text-black fw-6">BİZİ ARAYIN:</h6>
+                            <p>+001 234 567 890</p>
+                        </div>
+                    </div>-->
+
+
+                    <!--  <div class="media mt-3 mb-30">
+                        <span class="icon-chat h2 align-self-center"></span>
+                        <div class="media-body pl-3">
+                            <h6 class="mb-1 text-black fw-6">LIVE CHAT:</h6>
+                            <p>We are here to help you 24/7 Click here</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>-->
+                    <div class="row justify-content-center align-items-center text-center mb-5">
+                        <div class="col-lg-12">
+                            <ul class="list-inline social-link social-black mb-0">
+                                <li class="list-inline-item"><a href="https://twitter.com/r_iottech" target="_blank"
+                                        class="social-hover fab fa-twitter"></a></li>
+                                <li class="list-inline-item"><a href="https://www.instagram.com/r_iottechnologies/ "
+                                        target="_blank" class="social-hover fab fa-instagram"></a></a></li>
+                                <li class="list-inline-item"><a href="https://www.linkedin.com/company/riot-tech/"
+                                        target="_blank" class="social-hover fab fa-linkedin-in"></a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a href="https: //www.youtube.com/channel/UC0cF0U5K8N_WSxKscBBNSiw" target="_blank"
+                                        class="social-hover fab fa-youtube"></a>
+                                </li>
+                                <!--
+                                <li class="list-inline-item"><a href="#" class="social-hover fab fa-facebook-f"></a>
+                                </li>
+                               
+                                <li class="list-inline-item"><a href="#" class="social-hover fab fa-google-plus-g"></a>
+                                </li>-->
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!-- End offcanvas -->
+    </header>
+    <!-- End Header
+    ================================================== -->
+
+    <!-- Start Home
+    ================================================== -->
+    <section id="home" class="d-flex align-items-center section text-white full-home" data-parallax data-speed="0.2"
+        data-src="./images/blue.jpg">
+        <!-- <video autoplay muted loop id="myVideo">
+            <source src="./images/acilis2.mp4" type="video/mp4">
+        </video>-->
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+
+                    <!-- <h4 class="mb-4 fw-7">Powerful & modern landing page</h4> -->
+                    <h1 class="font-50 fw-4">R-IoT ile dijital dönüşümü takip edin, hayatı kolaylaştırın!
+                        <!--<span class="text-rotate fw-7">Responsive, Flexible, Amazing, Multipurpose</span></h1>-->
+                        <p class="font-15 mt-5">R-IoT hedef odaklı geliştirilen yüksek teknolojik değerli işletim
+                            sistemi
+                            sayesinde verilere
+                            erişim, depolama ve uzaktan kontrol edilebilirliği ile inovatif çözümler sunar.</p>
+                        <!--  <a href="#" class="btn btn btn-outline-light ml-2 mr-2 mt-3 mb-3">App Store<i class="icofont icofont-brand-apple ml-2"></i></a>
+                    <a href="#" class="btn btn btn-outline-light ml-2 mr-2 mt-3 mb-3">Play Store<i class="icofont icofont-brand-android-robot ml-2"></i></a> -->
+                </div>
+                <div class="col-lg-4 offset-lg-2 mt-4 mb-4">
+                    <div class="w-100">
+                        <img class="img-fluid d-block mx-auto" src="./images/onlylogo.png"
+                            alt="Here is the best way to present your apps" width="700" height="800">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#about" class="home-scroll-down page-scroll text-white">
+            <svg viewBox="36.667 0.444 26.667 78.851">
+                <circle cx="50" cy="11.555" r="2.667"></circle>
+                <path d="M50,0.444c-7.364,0-13.333,5.971-13.333,13.335v22.219c0,7.365,5.97,13.335,13.333,13.335
+                c7.363,0,13.334-5.971,13.334-13.335V13.779C63.334,6.415,57.363,0.444,50,0.444z M61.556,35.998
+                c0,6.373-5.185,11.558-11.556,11.558c-6.372,0-11.556-5.185-11.556-11.558V13.779c0-6.372,5.184-11.557,11.556-11.557
+                c6.371,0,11.556,5.185,11.556,11.557V35.998z"></path>
+                <path d="M61.816,53.149L50,64.965L38.184,53.149c-0.348-0.348-0.909-0.348-1.257,0s-0.348,0.909,0,1.257l12.444,12.444
+                c0.173,0.173,0.401,0.261,0.628,0.261s0.455-0.088,0.629-0.261l12.443-12.444c0.348-0.348,0.348-0.909,0-1.257
+                C62.726,52.802,62.164,52.802,61.816,53.149z"></path>
+                <path d="M61.816,65.594L50,77.41L38.184,65.594c-0.348-0.348-0.909-0.348-1.257,0s-0.348,0.909,0,1.257l12.444,12.444
+                c0.173,0.174,0.401,0.261,0.628,0.261s0.455-0.087,0.629-0.261l12.443-12.444c0.348-0.348,0.348-0.909,0-1.257
+                C62.726,65.246,62.164,65.246,61.816,65.594z"></path>
+            </svg>
+        </a>
+        <!--  <div class="home-shapes">
+            <svg class="text-white" x="0px" y="0px" width="1920px" height="45px" viewbox="0 0 1920 45" preserveAspectRatio="none">
+                <path d="M1920,0c-82.8,0-108.8,44.4-192,44.4c-78.8,0-116.5-43.7-192-43.7 c-77.1,0-115.9,44.4-192,44.4c-78.2,0-114.6-44.4-192-44.4c-78.4,0-115.3,44.4-192,44.4C883.1,45,841,0.6,768,0.6 C691,0.6,652.8,45,576,45C502.4,45,461.9,0.6,385,0.6C306.5,0.6,267.9,45,191,45C115.1,45,78,0.6,0,0.6V45h1920V0z"></path>
+            </svg>
+        </div>-->
+    </section>
+    <!-- End Home
+    ================================================== -->
+
+    <!-- Start About us
+    ================================================== -->
+    <section id="about" class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Hakkımızda</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">Riot çözüm odaklı teknolojiler sağlar.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-12">
+                    <!--<nav>
+                        <div class="nav nav-tabs justify-content-center" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link active" id="nav-home-tab" data-toggle="tab" href="#nav-home"
+                                role="tab" aria-controls="nav-home" aria-selected="true">Features</a>
+                            <a class="nav-item nav-link" id="nav-profile-tab" data-toggle="tab" href="#nav-profile"
+                                role="tab" aria-controls="nav-profile" aria-selected="false">Founder</a>
+                            <a class="nav-item nav-link" id="nav-contact-tab" data-toggle="tab" href="#nav-contact"
+                                role="tab" aria-controls="nav-contact" aria-selected="false">Mission</a>
+                        </div>
+                    </nav>-->
+                    <div class="tab-content pt-15" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="nav-home" role="tabpanel"
+                            aria-labelledby="nav-home-tab">
+                            <div class="row justify-content-center align-items-center">
+                                <div class="col-lg-8">
+                                    <div class="w-100">
+                                        <img class="img-fluid d-block mx-auto" src="./images/solutionv2.png"
+                                            alt="Headland">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="media mt-30">
+                                        <span class="ti-arrows-vertical mr-3 h4 text-custom"></span>
+                                        <div class="media-body">
+                                            <h6 class="text-black mb-1">Çözüm</h6>
+                                            <p>R-IoT, çağın gereksinimlerini dijital dönüşüme entegre eden çözüm odaklı
+                                                bir IoT platformdur. İş süreçlerini yeni nesil teknolojilerle
+                                                birleştirirken ölçeklendirilebilir, yalın ve esnek çözümler sunar.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-30">
+                                        <span class="ti-layout-slider mr-3 h4 text-custom"></span>
+                                        <div class="media-body">
+                                            <h6 class="text-black mb-1">Verimlilik</h6>
+                                            <p>Çeşitli sektörlerde verimliliği arttırmayı amaçlarken aynı zamanda
+                                                sektörün kendi endüstrilerine yaklaşım yöntemlerini yeniden düşünmeye
+                                                teşvik eder.</p>
+                                        </div>
+                                    </div>
+                                    <div class="media mt-30">
+                                        <span class="ti-write mr-3 h4 text-custom"></span>
+                                        <div class="media-body">
+                                            <h6 class="text-black mb-1">Strateji</h6>
+                                            <p>Yeni iş stratejileri geliştirmek ve müşteri deneyimini
+                                                iyileştirme odaklı bir teknolojik ürün hizmeti sunar.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">
+                            <div class="row">
+                                <div class="col-lg-3">
+                                    <div class="w-100">
+                                        <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/350x470"
+                                            alt="Roy Henry">
+                                    </div>
+                                </div>
+                                <div class="col-lg-9">
+                                    <h5 class="text-black mt-30">Roy Henry</h5>
+                                    <p class="font-italic">Founder</p>
+                                    <p>Roy is the main person behind Brave. He is the multitalented manager and a former
+                                        UX designer who is a true mine of creative ideas for everyone at our team.</p>
+                                    <p>The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for
+                                        those interested. Sections 1.10.32 and 1.10.33</p>
+                                    <ul class="list-inline social-link social-black mb-0">
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-facebook-f"></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-twitter"></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-instagram"></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-linkedin-in"></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-youtube"></a></li>
+                                        <li class="list-inline-item"><a href="#"
+                                                class="social-hover fab fa-google-plus-g"></a></li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab">
+                            <div class="row">
+                                <div class="col-lg-12">
+                                    <p>In the digital age, we are marketing ourselves on the web. That is why we aim to
+                                        make it as easy and affordable for everyone to take charge of their web
+                                        presence. Words like tweet and yelp should be part of your marketing campaign,
+                                        and not part of your stress.</p>
+                                    <blockquote class="font-25 fw-3 font-italic">We strive to create a memorable web
+                                        image for everyone.</blockquote>
+                                    <p>We establish a relationship with all of our clients, and we feel it is our
+                                        responsibility to help them grow and harness the opportunity of their presence
+                                        on the Internet.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About us
+    ================================================== -->
+
+    <!-- Start Our Best Services
+    ================================================== -->
+    <section id="services" class="section bg-custom text-white">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="fw-3 mb-4">Hizmetlerimiz</h2>
+                </div>
+                <!-- <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>-->
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <!-- <div class="col-sm-6 col-lg-4 mt-20 mb-20">
+                    <div class="service-box text-center" data-tilt>
+                        <i class="icon-paintbrush font-50"></i>
+                        <h5 class="mt-4 mb-3">Unlimited Colors</h5>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>-->
+                <div class="col-lg-6 col-lg-4 mt-30 mb-30">
+                    <div class="service-box text-center" data-tilt>
+                        <img class="img-fluid d-block mx-auto" src="./images/akilli-atik.png" alt="Headland" width="70"
+                            height="70">
+                        <h5 class="mt-4 mb-3">Akıllı Belediye</h5>
+                        <p>Atık yönetiminizi optimize edin. Akıllı çöp kutuları sayesinde geri dönüşümün verimliliğini
+                            arttırın. Akıllı çöp kutuları kendi doluluk oranlarını ölçer ve haber verir. Zaman tasarruf
+                            edin.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-mb-4 mt-30 mb-30 ">
+                    <div class="service-box text-center" data-tilt>
+                        <img class="img-fluid d-block mx-auto" src="./images/pet-takip.png" alt="Headland" width="70"
+                            height="70">
+                        <h5 class="mt-4 mb-3">Pet Takip</h5>
+                        <p>Evcil hayvanınızın kronik hastalıkları, kullandığı ilaçlar aşı karnelerini gibi sağlık
+                            bilgilerine tek bir noktadan ulaşım sağlayıp aynı zamanda hayvanlarınızın konumunu takip
+                            edin.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-4 mt-30 mb-30">
+                    <div class="service-box text-center" data-tilt>
+                        <img class="img-fluid d-block mx-auto" src="./images/akilli-tarim.png" alt="Headland" width="70"
+                            height="70">
+                        <h5 class="mt-4 mb-3">Akıllı Tarım</h5>
+                        <p>Tarladaki ürünün su ihtiyacını, toprak kalitesini, bakteri ve böceklenme uyarılarını zamandan
+                            tasarruf ederek yönetin. Verimliliği arttırırken iş yükünüzü azaltın.</p>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-lg-4 mt-30 mb-30">
+                    <div class="service-box text-center" data-tilt>
+                        <img class="img-fluid d-block mx-auto" src="./images/mototakip.png" alt="Headland" width="70"
+                            height="70">
+                        <h5 class="mt-4 mb-3">Moto Takip</h5>
+                        <p>Motorunuzun konumundan, herhangi bir etki sebebiyle harekete geçtiği anda, anında haberdar
+                            olun. IoT teknolojisiyle motorunuza kolayca ulaşın, güvenliği sağlayın.</p>
+                    </div>
+                </div>
+                <!-- <div class="col-sm-6 col-lg-4 mt-20 mb-20">
+                    <div class="service-box text-center" data-tilt>
+                        <i class="icon-tools-2 font-50"></i>
+                        <h5 class="mt-4 mb-3">Easy to customize</h5>
+                        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+    </section>
+    <!-- End Our Best Services
+    ================================================== -->
+
+    <!-- Start How It Works?
+    ================================================== -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">R-IoT Nasıl Çalışır?</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">IoT teknolojileriyle geliştirilen yazılımlar her türlü sistem ve sensör setine
+                        entegre edilebilir.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-sm-6 col-lg-4 mt-20 mb-20">
+                    <div class="how-box text-center">
+                        <span class="position-relative d-inline-block">
+                            <img class="img-fluid d-block mx-auto rounded-circle" src="./images/vector1.png"
+                                alt="DISCOVERY">
+                            <span class="how-number bg-white text-custom">1</span>
+                        </span>
+                        <h5 class="text-custom mt-4 mb-3">Keşif</h5>
+                        <p>R-IoT dijital dönüşüme entegre olmuş bir IoT platformdur.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-20 mb-20">
+                    <div class="how-box text-center">
+                        <span class="position-relative d-inline-block">
+                            <img class="img-fluid d-block mx-auto rounded-circle" src="./images/vector2.png"
+                                alt="PLANNING">
+                            <span class="how-number bg-white text-custom">2</span>
+                        </span>
+                        <h5 class="text-custom mt-4 mb-3">Planlama</h5>
+                        <p>R-IoT farklı sektörlerde kullandığı yüksek teknolojiyle verimlilik sağlar.</p>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-20 mb-20">
+                    <div class="how-box text-center">
+                        <span class="position-relative d-inline-block">
+                            <img class="img-fluid d-block mx-auto rounded-circle" src="./images/vector3.png"
+                                alt="EXECUTION">
+                            <span class="how-number bg-white text-custom">3</span>
+                        </span>
+                        <h5 class="text-custom mt-4 mb-3">Uygulama</h5>
+                        <p>R-IoT sağladığı hizmetlerle hayatı kolaylaştırır.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End How It Works?
+    ================================================== -->
+
+    <!-- Start We Offer
+    ================================================== -->
+    <!--<section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Sunduklarımız</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established
+                        fact looking at its layout.</p>
+                </div>
+            </div>
+            <ul class="row list-unstyled pl-0 mb-0 ul-framework">
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-computer font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">WEB Arayüzleri</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-brand-apple font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">IOS Uygulamaları</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-brand-android-robot font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">ANDROID Uygulamaları</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-cloud-upload font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">IOT Çözümleri</h6>
+                </li>-->
+    <!-- <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-ruler-pencil-alt-1 font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">UX STRATEGY</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-code-alt font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">SCRIPTING</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-social-magento font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">MAGENTO</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-social-github font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">SIDE PROJECTS</h6>
+                </li>
+            </ul>
+        </div>
+    </section>-->
+    <!-- End We Offer
+    ================================================== -->
+
+    <!-- Start Video Presentation
+    ================================================== 
+    <section class="section text-white pt-130 pb-130" data-parallax data-speed="0.2" data-src="https://via.placeholder.com/1920x1080">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="fw-3 mb-4">Video Presentation</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row mt-60">
+                <div class="col-lg-12 text-center">
+                    <a class="play-btn d-inline-block popup-youtube" href="https://www.youtube.com/watch?v=M-LRcmFAg0w">
+                        <span class="play-btn-icon">
+                            <span class="play-btn-shield bg-white font-20 rounded-circle d-flex justify-content-center align-items-center text-center">
+                                <i class="icofont icofont-ui-play text-custom"></i>
+                            </span>
+                            <span class="play-btn-circle play-btn-circle-1"></span>
+                            <span class="play-btn-circle play-btn-circle-2"></span>
+                            <span class="play-btn-circle play-btn-circle-3"></span>
+                        </span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Video Presentation
+    ================================================== -->
+
+    <!-- Start Do you need a Consultation?
+    ================================================== 
+    <section class="pt-35 pb-35 bg-custom text-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-8">
+                    <h2 class="fw-3">Do you need a Consultation?</h2>
+                    <p>Feel free to contact us if you have any questions on how you can use Headland.</p>
+                </div>
+                <div class="col-lg-4 text-lg-right">
+                    <a href="#contact" class="btn btn-outline-light mt-4 mb-4 page-scroll">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Do you need a Consultation?
+    ================================================== -->
+
+    <!-- Start What Our Customer Said
+    ================================================== 
+    <section id="testimonial" class="section pattern-1">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5 text-white">
+                <div class="col-lg-12">
+                    <h2 class="fw-3 mb-4">What Our Customer Said</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div id="testimonial-slider" class="owl-carousel owl-theme">
+                    <div class="col-lg-12">
+                        <div class="testimonial-box mt-20 mb-20 bg-white text-center p-5 position-relative">
+                            <span class="quote-icon"><span class="ti-quote-right position-relative"></span></span>
+                            <span class="testimonial-img mb-5"><img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/90x90" alt="Testimonial Image"></span>
+                            <div class="mb-5">
+                                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculateIt seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate</p>
+                            </div>
+                            <h6 class="text-black fw-6">Morgan McMillan</h6>
+                            <p class="font-italic">Writer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testimonial-box mt-20 mb-20 bg-white text-center p-5 position-relative">
+                            <span class="quote-icon"><span class="ti-quote-right position-relative"></span></span>
+                            <span class="testimonial-img mb-5"><img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/90x90" alt="Testimonial Image"></span>
+                            <div class="mb-5">
+                                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculateIt seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate</p>
+                            </div>
+                            <h6 class="text-black fw-6">Philip Lawrence</h6>
+                            <p class="font-italic">Designer</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testimonial-box mt-20 mb-20 bg-white text-center p-5 position-relative">
+                            <span class="quote-icon"><span class="ti-quote-right position-relative"></span></span>
+                            <span class="testimonial-img mb-5"><img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/90x90" alt="Testimonial Image"></span>
+                            <div class="mb-5">
+                                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculateIt seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate</p>
+                            </div>
+                            <h6 class="text-black fw-6">Jane Smith</h6>
+                            <p class="font-italic">Businessman</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="testimonial-box mt-20 mb-20 bg-white text-center p-5 position-relative">
+                            <span class="quote-icon"><span class="ti-quote-right position-relative"></span></span>
+                            <span class="testimonial-img mb-5"><img class="img-fluid mx-auto d-block" src="https://via.placeholder.com/90x90" alt="Testimonial Image"></span>
+                            <div class="mb-5">
+                                <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculateIt seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate</p>
+                            </div>
+                            <h6 class="text-black fw-6">Jeremy Sawyer</h6>
+                            <p class="font-italic">Manager</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End What Our Customer Said
+    ================================================== -->
+
+    <!-- Start Our Partners
+    ================================================== -->
+    <section id="services" class="section bg-custom text-white">
+
+
+        <div class="pt-10 pb-10  ">
+            <div class="bg-overlay"></div>
+            <div class="container">
+                <div class="row justify-content-center align-items-center text-center mb-5">
+                    <div class="col-lg-12">
+                        <h2 class="fw-3 mb-4">İş Ortaklarımız</h2>
+                    </div>
+
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <!-- <div id="partner-slider" class="owl-carousel owl-theme">-->
+                    <a class="col partner-box d-block" href="https://trakyateknopark.com.tr/" target="_blank">
+                        <img class="img-fluid d-block ml-auto mr-20" src="./images/trakya-teknopark.png"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="https://www.kosgeb.gov.tr/" target="_blank">
+                        <img class="img-fluid d-block ml-20 mr-auto" src="./images/kosgeb-logo.png" alt="Partner Logo">
+                    </a>
+                    <!-- <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>
+                    <a class="col partner-box d-block" href="javascript:void(0);">
+                        <img class="img-fluid d-block ml-auto mr-auto" src="https://via.placeholder.com/190x80"
+                            alt="Partner Logo">
+                    </a>-->
+                    <!--  </div>-->
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- End Our Partners
+    ================================================== -->
+
+    <!-- Start We are digital creative Landing Page
+    ================================================== 
+    <section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">We are digital creative Landing Page</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-5">
+                    <ul class="row list-unstyled pl-0 mb-0 ul-framework">
+                        <li class="col-sm-6 col-lg-6 text-center li-framework pt-30 pb-30">
+                            <i class="icon-desktop font-30 text-custom"></i>
+                            <span class="d-block h3 fw-3 text-black mt-15 mb-0"><span class="counter-value">62000</span>+</span>
+                            <p>Templates</p>
+                        </li>
+                        <li class="col-sm-6 col-lg-6 text-center li-framework pt-30 pb-30">
+                            <i class="icon-happy font-30 text-custom"></i>
+                            <span class="d-block h3 fw-3 text-black mt-15 mb-0"><span class="counter-value">246000</span>+</span>
+                            <p>Happy Clients</p>
+                        </li>
+                        <li class="col-sm-6 col-lg-6 text-center li-framework pt-30 pb-30">
+                            <i class="icon-clock font-30 text-custom"></i>
+                            <span class="d-block h3 fw-3 text-black mt-15 mb-0"><span class="counter-value">1200</span></span>
+                            <p>Hours of Coding</p>
+                        </li>
+                        <li class="col-sm-6 col-lg-6 text-center li-framework pt-30 pb-30">
+                            <i class="icon-document font-30 text-custom"></i>
+                            <span class="d-block h3 fw-3 text-black mt-15 mb-0"><span class="counter-value">12000</span></span>
+                            <p>Lines of Code</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-6 offset-lg-1 mt-3 mb-3">
+                    <div class="w-100">
+                        <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/540x460" alt="We are digital creative Landing Page">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End We are digital creative Landing Page
+    ================================================== -->
+
+    <!-- Start Are You Ready To Enjoy? Get This Perfect Template Now!
+    ==================================================
+    <section class="section pt-130 pb-130 text-white" data-parallax data-speed="0.2" data-src="https://via.placeholder.com/1920x1080">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-12">
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <h2 class="fw-3 mb-4">Are You Ready To Enjoy? Get This Perfect Template Now!</h2>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-lg-6">
+                            <p class="font-15 mb-5">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Are You Ready To Enjoy? Get This Perfect Template Now!
+    ================================================== -->
+
+    <!-- Start Creative Work
+    ================================================== 
+    <section id="portfolio" class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Creative Work</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established
+                        fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="portfolio-filter list-unstyled text-center text-black portfolio-filter">
+                        <li class="d-inline-block active" data-filter=".all">All</li>
+                        <li class="d-inline-block" data-filter=".design">Design</li>
+                        <li class="d-inline-block" data-filter=".web">Web</li>
+                        <li class="d-inline-block" data-filter=".branding">Branding</li>
+                        <li class="d-inline-block" data-filter=".print">Print</li>
+                    </ul>
+                </div>
+            </div>
+            <ul class="row list-unstyled mb-0 portfolio-row">
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all branding">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all print web">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all branding">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all print design">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all print web">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all design">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all web">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all branding">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+                <li class="col-md-6 col-lg-4 col-xl-4 mt-15 mb-15 portfolio-col all web">
+                    <div class="portfolio-box">
+                        <div class="portfolio-box-inner">
+                            <div class="portfolio-box-img">
+                                <img class="img-fluid d-block ml-auto mr-auto w-100"
+                                    src="https://via.placeholder.com/660x440" alt="Portfolio">
+                            </div>
+                            <div
+                                class="portfolio-box-content text-white d-flex justify-content-center align-items-center text-center">
+                                <div>
+                                    <h6 class="text-uppercase mb-2 fw-6">Project Name</h6>
+                                    <p class="mb-0">Website Design</p>
+                                    <a class="portfolio-box-view bg-custom text-custom popup-image"
+                                        href="https://via.placeholder.com/660x440"><span class="ti-search"></span></a>
+                                    <a class="portfolio-box-link bg-custom text-custom" href="#"><span
+                                            class="ti-link"></span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </section>-->
+    <!-- End Creative Work
+    ================================================== -->
+
+    <!-- Start Our Pricing
+    ================================================== 
+    <section id="pricing" class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Our Pricing</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-sm-6 col-lg-4 mt-15 mb-15">
+                    <div class="bg-white mt-3 price-box pt-30 pb-30 position-relative">
+                        <span class="price-border d-block bg-custom"></span>
+                        <div class="pricing-name text-center">
+                            <h5 class="mb-0 text-black">Basic</h5>
+                        </div>
+                        <div class="plan-price bg-custom text-white text-center mt-4 pt-3 pb-3">
+                            <span class="font-50 mb-1 mt-1 fw-1">$9<span class="fw-4 font-15">/Month</span></span>
+                        </div>
+                        <div class="price-features text-center mt-30 mb-30">
+                            <p><i class="mdi mdi-repeat text-custom font-25 mr-2"></i>Bandwidth: <span class="fw-7 text-black ml-1">1GB</span></p>
+                            <p><i class="mdi mdi-harddisk text-custom font-25 mr-2"></i>Onlinespace: <span class="fw-7 text-black ml-1">500MB</span></p>
+                            <p><i class="mdi mdi-account-multiple text-custom font-25 mr-2"></i>Support: <span class="fw-7 text-black ml-1">No</span></p>
+                            <p><i class="mdi mdi-database text-custom font-25 mr-2"></i>Domain: <span class="fw-7 text-black ml-1">2</span></p>
+                            <p><i class="mdi mdi-email-open text-custom font-25 mr-2"></i>Email Accounts:<span class="fw-7 text-black ml-1">1</span></p>
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-15 mb-15">
+                    <div class="bg-white mt-3 price-box active pt-30 pb-30 position-relative">
+                        <span class="price-box-lable bg-custom">Best Plan</span>
+                        <span class="price-border d-block bg-custom"></span>
+                        <div class="pricing-name text-center">
+                            <h5 class="mb-0 text-black">Standard</h5>
+                        </div>
+                        <div class="plan-price bg-custom text-white text-center mt-4 pt-3 pb-3">
+                            <span class="font-50 mb-1 mt-1 fw-1">$19<span class="fw-4 font-15">/Month</span></span>
+                        </div>
+                        <div class="price-features text-center mt-30 mb-30">
+                            <p><i class="mdi mdi-repeat text-custom font-25 mr-2"></i>Bandwidth: <span class="fw-7 text-black ml-1">3GB</span></p>
+                            <p><i class="mdi mdi-harddisk text-custom font-25 mr-2"></i>Onlinespace: <span class="fw-7 text-black ml-1">2GB</span></p>
+                            <p><i class="mdi mdi-account-multiple text-custom font-25 mr-2"></i>Support: <span class="fw-7 text-black ml-1">Yes</span></p>
+                            <p><i class="mdi mdi-database text-custom font-25 mr-2"></i>Domain: <span class="fw-7 text-black ml-1">6</span></p>
+                            <p><i class="mdi mdi-email-open text-custom font-25 mr-2"></i>Email Accounts:<span class="fw-7 text-black ml-1">6</span></p>
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-4 mt-15 mb-15">
+                    <div class="bg-white mt-3 price-box pt-30 pb-30 position-relative">
+                        <span class="price-border d-block bg-custom"></span>
+                        <div class="pricing-name text-center">
+                            <h5 class="mb-0 text-black">Premium</h5>
+                        </div>
+                        <div class="plan-price bg-custom text-white text-center mt-4 pt-3 pb-3">
+                            <span class="font-50 mb-1 mt-1 fw-1">$29<span class="fw-4 font-15">/Month</span></span>
+                        </div>
+                        <div class="price-features text-center mt-30 mb-30">
+                            <p><i class="mdi mdi-repeat text-custom font-25 mr-2"></i>Bandwidth: <span class="fw-7 text-black ml-1">4GB</span></p>
+                            <p><i class="mdi mdi-harddisk text-custom font-25 mr-2"></i>Onlinespace: <span class="fw-7 text-black ml-1">3GB</span></p>
+                            <p><i class="mdi mdi-account-multiple text-custom font-25 mr-2"></i>Support: <span class="fw-7 text-black ml-1">Yes</span></p>
+                            <p><i class="mdi mdi-database text-custom font-25 mr-2"></i>Domain: <span class="fw-7 text-black ml-1">Unlimited</span></p>
+                            <p><i class="mdi mdi-email-open text-custom font-25 mr-2"></i>Email Accounts:<span class="fw-7 text-black ml-1">6</span></p>
+                        </div>
+                        <div class="text-center">
+                            <a href="#" class="btn btn-custom">Buy now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Our Pricing
+    ================================================== -->
+
+    <!-- Start Frequently Asked Questions
+    ==================================================
+    <section id="faq" class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Frequently Asked Questions</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <div id="accordion">
+                        <div class="card active">
+                            <div class="card-header p-0">
+                                <h6 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#collapse1" aria-expanded="true">
+                                        <span class="accordion-icon ti-plus d-flex align-items-center justify-content-center"></span>What is Lorem Ipsum?
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapse1" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-0">
+                                <h6 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#collapse2" aria-expanded="true">
+                                        <span class="accordion-icon ti-plus d-flex align-items-center justify-content-center"></span>Why use Lorem Ipsum?
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapse2" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-0">
+                                <h6 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#collapse3" aria-expanded="true">
+                                        <span class="accordion-icon ti-plus d-flex align-items-center justify-content-center"></span>How many variations exist?
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapse3" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-0">
+                                <h6 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#collapse4" aria-expanded="true">
+                                        <span class="accordion-icon ti-plus d-flex align-items-center justify-content-center"></span>Is safe use Lorem Ipsum?
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapse4" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header p-0">
+                                <h6 class="mb-0">
+                                    <a class="text-black" data-toggle="collapse" data-parent="#accordion" href="#collapse5" aria-expanded="true">
+                                        <span class="accordion-icon ti-plus d-flex align-items-center justify-content-center"></span>When can be used?
+                                    </a>
+                                </h6>
+                            </div>
+                            <div id="collapse5" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodas temporo incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrd exercitation ullamco laboris nisi ut aliquip ex comodo consequat. Duis aute dolor in reprehenderit.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 offset-lg-1 mt-3 mb-3">
+                    <div class="w-100">
+                        <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/450x550" alt="Frequently Asked Questions">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <!-- End Frequently Asked Questions
+    ================================================== -->
+
+
+    <!--Start Our Blog
+    ==================================================-->
+    <!--
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Blog</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">R-IoT sektörü yakından takip eder.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div id="blog-slider" class="owl-carousel owl-theme">
+                    <div class="col-lg-12 pt-15 pb-15">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <a class="d-block" href="#">
+                                    <img class="img-fluid mx-auto d-block" src="./images/redbutton.png"
+                                        alt="Blog Image">
+                                </a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-content-top">
+                                    <span class="text-custom">07.08.2016</span> / <a class="text-black" href="#">IOT</a>
+                                </div>
+                                <h5><a href="#">IoT Nedir?</a></h5>
+                                <p>Günümüzde yaşamı kolaylaştıracak yüksek teknolojik araçların hayatımıza entegre
+                                    olması
+                                    kaçınılmaz olmuştur. Her geçen gün sayısallaşan otomasyon dünyasında...</p>
+                                <div class="blog-content-bottom clearfix">
+                                    <div class="float-left">
+                                        <a class="blog-read-more" href="#">Read Post<span
+                                                class="fas fa-chevron-right"></span></a>
+                                    </div>
+                                    <div class="float-right">
+                                        <ul class="list-unstyled mb-0 blog-social-share">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-bottom-border bg-custom"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt-15 pb-15">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <a class="d-block" href="#">
+                                    <img class="img-fluid mx-auto d-block" src="./images/matrix.png" alt="Blog Image">
+                                </a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-content-top">
+                                    <span class="text-custom">07.08.2016</span> / <a class="text-black" href="#">BIG
+                                        DATA</a>
+                                </div>
+                                <h5><a href="#">Big Data Kavramı</a></h5>
+                                <p>Veri olarak ele aldığımız kavram araştırmalardan, gözlemlerden, internetten, sosyal
+                                    medyadan, sensörlerden vb. çok farklı ortamlardan elde edilen genel bir...</p>
+                                <div class="blog-content-bottom clearfix">
+                                    <div class="float-left">
+                                        <a class="blog-read-more" href="#">Read Post<span
+                                                class="fas fa-chevron-right"></span></a>
+                                    </div>
+                                    <div class="float-right">
+                                        <ul class="list-unstyled mb-0 blog-social-share">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-bottom-border bg-custom"></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 pt-15 pb-15">
+                        <div class="blog-box">
+                            <div class="blog-img">
+                                <a class="d-block" href="#">
+                                    <img class="img-fluid mx-auto d-block" src="./images/access.png" alt="Blog Image">
+                                </a>
+                            </div>
+                            <div class="blog-content">
+                                <div class="blog-content-top">
+                                    <span class="text-custom">07.08.2016</span> / <a class="text-black" href="#">IOT</a>
+                                </div>
+                                <h5><a href="#">IoT ve Siber Güvenlik</a></h5>
+                                <p>Nesnelerin İnternetini kullanan şirketlerin ve iş ortaklarının güvenliği her bir
+                                    cihaz seviyesinde
+                                    sağlayıp, bunu en iyi şekilde tesis edebilmelerinin...</p>
+                                <div class="blog-content-bottom clearfix">
+                                    <div class="float-left">
+                                        <a class="blog-read-more" href="#">Read Post<span
+                                                class="fas fa-chevron-right"></span></a>
+                                    </div>
+                                    <div class="float-right">
+                                        <ul class="list-unstyled mb-0 blog-social-share">
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="blog-bottom-border bg-custom"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Our Blog
+    ================================================== -->
+
+    <!-- Start Start Your Free Trial
+    ================================================== 
+    <section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Start Your Free Trial</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-6">
+                    <form class="form">
+                        <div class="form-group position-relative">
+                            <input class="form-control" type="email" placeholder="Email">
+                            <label><i class="icon-envelope"></i></label>
+                        </div>
+                        <div class="form-group position-relative">
+                            <input class="form-control" type="text" placeholder="First Name">
+                            <label><i class="icon-profile-male"></i></label>
+                        </div>
+                        <div class="form-group position-relative">
+                            <input class="form-control" type="text" placeholder="Company Name">
+                            <label><i class="icon-briefcase"></i></label>
+                        </div>
+                        <div class="form-group position-relative">
+                            <input class="form-control" type="text" placeholder="Mobile Name">
+                            <label><i class="icon-phone"></i></label>
+                        </div>
+                        <div class="form-group position-relative">
+                            <button type="submit" class="btn btn-custom w-100">Sign Up</button>
+                        </div>
+                    </form>
+                    <div class="text-center">
+                        <p>or enter with</p>
+                        <ul class="list-inline social-link social-dark mb-0">
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-facebook-f"></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-twitter"></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-instagram"></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-linkedin-in"></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-youtube"></a></li>
+                            <li class="list-inline-item"><a href="#" class="social-hover fab fa-google-plus-g"></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Start Your Free Trial
+    ================================================== -->
+    <section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Sunduklarımız</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">R-IoT hayatın her alanında çözümler sunar.</p>
+                </div>
+            </div>
+            <ul class="row list-unstyled pl-0 mb-0 ul-framework">
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-computer font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">WEB Arayüzleri</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-brand-apple font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">IOS Uygulamaları</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-brand-android-robot font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">ANDROID Uygulamaları</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-cloud-upload font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">IOT Çözümleri</h6>
+                </li>
+                <!--
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-ruler-pencil-alt-1 font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">UX STRATEGY</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-code-alt font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">SCRIPTING</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-social-magento font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">MAGENTO</h6>
+                </li>
+                <li class="col-sm-6 col-lg-3 text-center li-framework pt-50 pb-50">
+                    <i class="icofont icofont-social-github font-40 text-custom"></i>
+                    <h6 class="mt-30 mb-0 text-black">SIDE PROJECTS</h6>
+                </li>-->
+            </ul>
+        </div>
+    </section>
+    <!-- Start Creative Team
+    ================================================== 
+    <section class="section bg-light">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Creative Team</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established
+                        fact looking at its layout.</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div id="team-slider" class="owl-carousel owl-theme">
+                    <div class="col-lg-12">
+                        <div class="team-box text-center">
+                            <div class="team-image">
+                                <div class="has-thumbnail">
+                                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/270x460"
+                                        alt="Grayson Carroll">
+                                </div>
+                                <div class="team-overlay"></div>
+                                <div class="team-social">
+                                    <a class="social-hover fab fa-facebook-f" href="#"></a>
+                                    <a class="social-hover fab fa-twitter" href="#"></a>
+                                    <a class="social-hover fab fa-linkedin-in" href="#"></a>
+                                    <a class="social-hover fab fa-google-plus-g" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h6 class="text-black mb-1 mt-3">Grayson Carroll</h6>
+                                <p class="font-italic font-15">CEO/Founder</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="team-box text-center">
+                            <div class="team-image">
+                                <div class="has-thumbnail">
+                                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/270x460"
+                                        alt="Joe Myers">
+                                </div>
+                                <div class="team-overlay"></div>
+                                <div class="team-social">
+                                    <a class="social-hover fab fa-facebook-f" href="#"></a>
+                                    <a class="social-hover fab fa-twitter" href="#"></a>
+                                    <a class="social-hover fab fa-linkedin-in" href="#"></a>
+                                    <a class="social-hover fab fa-google-plus-g" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h6 class="text-black mb-1 mt-3">Joe Myers</h6>
+                                <p class="font-italic font-15">Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="team-box text-center">
+                            <div class="team-image">
+                                <div class="has-thumbnail">
+                                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/270x460"
+                                        alt="Patrick Douglas">
+                                </div>
+                                <div class="team-overlay"></div>
+                                <div class="team-social">
+                                    <a class="social-hover fab fa-facebook-f" href="#"></a>
+                                    <a class="social-hover fab fa-twitter" href="#"></a>
+                                    <a class="social-hover fab fa-linkedin-in" href="#"></a>
+                                    <a class="social-hover fab fa-google-plus-g" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h6 class="text-black mb-1 mt-3">Patrick Douglas</h6>
+                                <p class="font-italic font-15">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="team-box text-center">
+                            <div class="team-image">
+                                <div class="has-thumbnail">
+                                    <img class="img-fluid d-block mx-auto" src="https://via.placeholder.com/270x460"
+                                        alt="Ronald Chen">
+                                </div>
+                                <div class="team-overlay"></div>
+                                <div class="team-social">
+                                    <a class="social-hover fab fa-facebook-f" href="#"></a>
+                                    <a class="social-hover fab fa-twitter" href="#"></a>
+                                    <a class="social-hover fab fa-linkedin-in" href="#"></a>
+                                    <a class="social-hover fab fa-google-plus-g" href="#"></a>
+                                </div>
+                            </div>
+                            <div class="team-meta">
+                                <h6 class="text-black mb-1 mt-3">Ronald Chen</h6>
+                                <p class="font-italic font-15">Support Operator</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center mt-50">
+                <div class="col-lg-6 mt-15 mb-15">
+                    <div class="progress-hidden">
+                        <h5 class="text-black fw-4 mt-2 mb-3">Development</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-custom wow fadeInLeft" data-wow-duration="1.80s"
+                                data-wow-delay="0.50s" role="progressbar" style="width: 90%" aria-valuenow="90"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span>90</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-15 mb-15">
+                    <div class="progress-hidden">
+                        <h5 class="text-black fw-4 mt-2 mb-3">Adobe Photoshop</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-custom wow fadeInLeft" data-wow-duration="1.80s"
+                                data-wow-delay="0.50s" role="progressbar" style="width: 96%" aria-valuenow="96"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span>96</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-15 mb-15">
+                    <div class="progress-hidden">
+                        <h5 class="text-black fw-4 mt-2 mb-3">Marketing</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-custom wow fadeInLeft" data-wow-duration="1.80s"
+                                data-wow-delay="0.50s" role="progressbar" style="width: 70%" aria-valuenow="70"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span>70</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-15 mb-15">
+                    <div class="progress-hidden">
+                        <h5 class="text-black fw-4 mt-2 mb-3">Html/WordPress</h5>
+                        <div class="progress">
+                            <div class="progress-bar bg-custom wow fadeInLeft" data-wow-duration="1.80s"
+                                data-wow-delay="0.50s" role="progressbar" style="width: 84%" aria-valuenow="84"
+                                aria-valuemin="0" aria-valuemax="100">
+                                <span>84</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Creative Team
+    ================================================== -->
+
+    <!-- Start We are Hiring creative people
+    ================================================== 
+    <section id="career" class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">We are Hiring creative people</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One may speculate</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-7 mt-15 mb-15">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survive</p>
+                    <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                    <p>Ipsum has been the industry's standard dummy text ever since the 1500s, when an</p>
+                </div>
+                <div class="col-lg-4 offset-lg-1 mt-15 mb-15">
+                    <div class="drop-cv-box">
+                         <input type="file" class="custom-file-input">
+                        <div class="drop-cv-inner">
+                            <span class="icofont icofont-business-man-alt-1 cv-icon"></span>
+                            <p class="mt-2">Drop Your CV</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End We are Hiring creative people
+    ================================================== -->
+
+    <!-- Start Let's get started with Headland
+    ================================================== 
+    <section class="section pt-130 pb-130 text-white" data-parallax data-speed="0.2" data-src="https://via.placeholder.com/1920x1080">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="fw-3 mb-4">Let's get started with Headland</h2>
+                </div>
+                <div class="col-lg-6">
+                    <p class="font-15">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour</p>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center text-center">
+                <div class="col-lg-6">
+                    <a href="#" class="btn btn-custom">Buy now</a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <!-- End Let's get started with Headland
+    ================================================== -->
+
+
+
+    <!-- Start Contact us
+    ================================================== -->
+    <section id="contact" class="section text-white" data-parallax data-speed="0.2" data-src="./images/acilis2.png">
+        <div class="bg-overlay"></div>
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="fw-3 mb-4">Bize Ulaşın</h2>
+                    <!-- </div>
+                <div class="col-lg-6">
+                    <p class="font-15">It is a long established fact that a reader will be of a page when established
+                        fact looking at its layout.</p>
+                </div>-->
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-sm-6 col-lg-3 mt-15 mb-15 mr-50">
+                        <div class="text-center">
+                            <i class="icon-map-pin font-35"></i>
+                            <h4 class="fw-3 mt-50 mb-20 mr-10">LOKASYON</h4>
+                            <p>
+                                <a class="text-white" href="javascript:void(0);">Trakya Teknopark - Trakya Üniversitesi
+                                    Ayşekadın Yerleşkesi, 22100 Edirne</a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 col-lg-3 mt-15 mb-15 ml-50">
+                        <div class="text-center">
+                            <i class="icon-envelope font-35"></i>
+                            <h4 class="fw-3 mt-50 mb-20">MAIL</h4>
+                            <p>
+                                <a class="text-white" href="mailto:info@yourdomain.com">info@riot.com.tr</a><br>
+                                <a class="text-white" href="mailto:support@yourdomain.com">info@riot.com.tr</a>
+                            </p>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="col-sm-6 col-lg-3 mt-15 mb-15">
+                        <div class="text-center">
+                            <i class="icon-phone font-35"></i>
+                            <h4 class="fw-3 mt-50 mb-20">BİZİ ARAYIN</h4>
+                            <p>
+                                <a class="text-white" href="tel:+001234567890">+001 234 567 890 </a><br>
+                                <a class="text-white" href="tel:+001234567890">+001 234 567 890</a>
+                            </p>
+                        </div>
+                    </div>-->
+                    <!--<div class="col-sm-6 col-lg-3 mt-15 mb-15">
+                    <div class="text-center">
+                        <i class="icon-chat font-35"></i>
+                        <h4 class="fw-3 mt-50 mb-20">LIVE CHAT</h4>
+                        <p>
+                            <a class="text-white" href="javascript:void(0);">We are here to help you <br> 24/7 Click
+                                here</a>
+                        </p>
+                    </div>
+                </div>-->
+                </div>
+            </div>
+    </section>
+    <!-- End Contact us
+    ================================================== -->
+
+    <!-- Start Map
+    ================================================== -->
+    <div id="map-ca" class="z-depth-1-half map-container" style="height: 500px">
+    <iframe  frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyARHVJGgtG0IPkOuIf_pXLcwo2ufSjiMug
+    &q=Trakya+Teknopark" allowfullscreen>
+    </iframe>
+    </div>
+
+    <!-- End Map
+    ================================================== -->
+
+    <!-- Start Get in touch today
+    ================================================== -->
+    <section class="section bg-white">
+        <div class="container">
+            <div class="row justify-content-center align-items-center text-center mb-5">
+                <div class="col-lg-12">
+                    <h2 class="text-black fw-3 mb-4">Hemen iletişime geçin</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+                <div class="col-lg-4 mt-3 mb-3">
+                    <div class="w-100">
+                        <img class="img-fluid d-block mx-auto" src="./images/onlylogo.png" alt="Get in touch today">
+                    </div>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form needs-validation" method="post" action="php/contact.php">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="messages"></div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="position-relative">
+                                        <input class="form-control" type="text" name="name" placeholder="İsim*"
+                                            required="required" data-error="İsim alanını boş bırakamazsınız.">
+                                        <label><i class="icon-profile-male"></i></label>
+                                    </div>
+                                    <div class="help-block with-errors text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="position-relative">
+                                        <input class="form-control" type="email" name="email" placeholder="Mail Adresi*"
+                                            required="required" data-error="E-mail adresiniz gerekli.">
+                                        <label><i class="icon-envelope"></i></label>
+                                    </div>
+                                    <div class="help-block with-errors text-danger"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="position-relative">
+                                        <input class="form-control" type="text" name="phone"
+                                            placeholder="Telefon Numarası">
+                                        <label><i class="icon-phone"></i></label>
+                                    </div>
+                                    <div class="help-block with-errors text-danger"></div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="form-group">
+                                    <div class="position-relative">
+                                        <input class="form-control" type="text" name="subject" placeholder="Konu*"
+                                            required="required" data-error="Konuyu boş bırakamazsınız.">
+                                        <label><i class="icon-pencil"></i></label>
+                                    </div>
+                                    <div class="help-block with-errors text-danger"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="form-group">
+                                    <div class="position-relative">
+                                        <textarea class="form-control" name="message" placeholder="Mesajınız*" rows="6"
+                                            required="required" data-error="Lütfen bir mesaj bırakın."></textarea>
+                                        <label><i class="icon-clipboard"></i></label>
+                                    </div>
+                                    <div class="help-block with-errors text-danger"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <button class="btn btn-custom" type="submit">Gönder<i
+                                        class="far fa-paper-plane pl-3"></i></button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Get in touch today
+    ================================================== -->
+
+    <!-- Start Footer
+    ================================================== -->
+    <footer class="section bg-black text-white">
+        <div class="container">
+            <div class="row justify-content-center text-center mb-30">
+                <div class="col-lg-12">
+                    <h2 class="fw-3"><span class="fw-9 text-custom">R-IoT</span></h2>
+                </div>
+                <!-- <div class="col-lg-6">
+                    <p>It seems that only fragments of the original text remain in the Lorem Ipsum texts used today. One
+                        may speculate</p>
+                         <li class="list-inline-item"><a href="https://www.linkedin.com/company/riot-tech/" target="_blank"><span class="d-none d-md-inline-block">Linkedin</span><i
+                                class="fab fa-linkedin-in ml-2"></i></a></li>
+                    <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC0cF0U5K8N_WSxKscBBNSiw" target="_blank"><span class="d-none d-md-inline-block">Youtube</span><i
+                                class="fab fa-youtube ml-2"></i></a></li>
+                </div>-->
+            </div>
+            <div class="row text-center">
+                <div class="col-lg-12">
+                    <p>2020 © R-IoT</p>
+                </div>
+            </div>
+            <div class="row text-center mt-3">
+                <div class="col-lg-12">
+                    <ul class="list-inline social-link social-light mb-0">
+                        <li class="list-inline-item"><a href="https://twitter.com/r_iottech" target="_blank"
+                                class="social-hover fab fa-twitter"></a></li>
+                        <li class="list-inline-item"><a href="https://www.instagram.com/r_iottechnologies/ "
+                                target="_blank" class="social-hover fab fa-instagram"></a></a></li>
+                        <li class="list-inline-item"><a href="https://www.linkedin.com/company/riot-tech/"
+                                target="_blank" class="social-hover fab fa-linkedin-in"></a></li>
+                        <li class="list-inline-item"><a href="https://www.youtube.com/channel/UC0cF0U5K8N_WSxKscBBNSiw"
+                                target="_blank" class="social-hover fab fa-youtube"></a></li>
+                        <!--                       
+                        <li class="list-inline-item"><a href="#" class="social-hover fab fa-facebook-f"></a></li>
+                       
+                        <li class="list-inline-item"><a href="#" class="social-hover fab fa-google-plus-g"></a></li>-->
+
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer
+    ================================================== -->
+
+    <!-- Start Back to Top
+    ================================================== -->
+    <a href="#" class="back-to-top bg-black text-white" id="back-to-top"><span class="ti-arrow-up"></span></a>
+    <!-- End Back to Top
+    ================================================== -->
+
+    <script src="js/plugins.js"></script><!-- Plugins JS -->
+    <!-- Google Map JS -->
+    <script src="js/app.js"></script><!-- Custom JS -->
+</body>
+
+</html>
